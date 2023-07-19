@@ -1,0 +1,8 @@
+"0","#| warning: false"
+"0","#| message: false"
+"0","#| label: apply-feature-engineering"
+"0",""
+"0","pca_rec <- "
+"0","  churn_rec %>% "
+"0","  step_pca(all_numeric_predictors(), outcome = ""Churn"", num_comp = tune())"
+"0",""

@@ -1,0 +1,7 @@
+"0","#| warning: false"
+"0","#| message: false"
+"0","#| label: read-data"
+"0",""
+"0","churn_tbl <- read_excel(""Telecom Churn Rate Dataset.xlsx"") "
+"0",""
+"0","callCenter_tbl <- read_excel(""Telecom Company Call-Center-Dataset.xlsx"")"
